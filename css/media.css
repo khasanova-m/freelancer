@@ -1,0 +1,227 @@
+@media(max-width:1200px){
+    .portfolio__right{
+        margin-left: 100px;
+    }
+  
+    .person__img{
+        height: 140px;
+        width: 140px;
+    }
+    .footer__link{
+        margin-left: 15px;
+        margin-right: 0;
+    }
+    .footer__copy{
+        margin-right: 15px;
+    }
+}
+@media(max-width:992px){
+    .header{
+        padding-bottom: 80px;
+       
+    }
+    .header__title{
+        font-size: 36px;
+    }
+    .header__title::after{
+        margin-left: -10px;
+    }
+    .header__subtitle{
+        font-size: 21px;
+        margin: 25px 0;
+    }
+    .header__button{
+        font-size: 19px;
+        padding: 20px 25px;
+    }
+    .info__item{
+        margin-bottom: 25px;
+    }
+    
+    .portfolio__title{
+        font-size: 40px;
+    }
+    .portfolio__right{
+        width: 300px;
+        margin-left: 70px;
+    }
+    .person{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin: 30px 0 25px;
+    }
+    .person__item{
+        margin-bottom: 20px;
+    }
+    .portfolio__img{
+        width: 350px;
+        height: 250px;
+    }
+    .portfolio__text{
+        margin: 10px 0 15px;
+    }
+    .team__title{
+        margin: 70px 0 15px;
+    }
+    .footer__container{
+       margin: 0 auto;
+        padding: 20px 0 100px;
+        min-width: 700px;
+    }
+    .footer__link{
+        font-size: 30px;
+    }
+    .more-link{
+        display: block;
+        text-align: center;
+    }
+}
+@media(max-width:768px){
+    .header{
+        min-height: 760px;
+        justify-content: space-between;
+    }
+    .nav__logo{
+        font-size: 23px;
+        padding: 30px 8px 0px;
+    }
+    .nav__link {
+        font-size: 16px;
+        margin: 0 5px;
+    }
+    .nav__lists{
+        overflow-x: scroll;
+        justify-self: start;
+    }
+    .nav__container {
+        justify-content: space-around;
+        
+    }
+    .header__title{
+        font-size: 36px;
+    }
+    .info__container{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 60px auto 40px;
+    }
+    .team__title{
+        text-align: center;
+    }
+    .team__subtitle{
+        text-align: center;
+    }
+    .person{
+        justify-content: space-around;
+        
+    }
+    .portfolio__img{
+        display: block;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .portfolio__container{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .portfolio__right{
+        width: 300px;
+        margin-left: 0px;
+    }
+    .more__bottom{
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .footer__container{
+        margin: 0 auto;
+        padding: 15px 0 70px;
+      min-width: 500px;
+     }
+     
+}
+@media(max-width:576px){
+    .header{
+        min-height: 576px;
+    }
+    .footer__container{
+        margin: 0 auto;
+        padding: 15px 0 70px;
+      min-width: 300px;
+     }
+     .portfolio__img{
+         width: 280px;
+         height: 180px;
+     }
+     .nav__container{
+         flex-wrap: wrap;
+     }
+     .nav__logo{
+         margin-bottom: 30px;
+     }
+     .header__title {
+         font-size: 25px;
+     }
+     .nav__lists{
+         margin-bottom: 50px;
+     }
+     .header__subtitle{
+         font-size: 17px;
+     }
+     .header__title::after {
+        
+        margin-left: -8px;
+    }
+    .header__button {
+        font-size: 16px;
+        padding: 15px 20px;
+    }
+
+}
+@media(max-width:320px){
+    .header__arrow {
+        font-size: 15px;
+        margin: 60px 0 0 30px;
+
+    }
+    .info__title{
+        font-size: 30px;
+    }
+    .info__title-2{
+        font-size: 30px;
+    }
+    .info__item{
+        align-items: center;
+        justify-content: center;
+    }
+    .portfolio__title{
+        font-size: 30px;
+    }
+    .portfolio__subtitle{
+        font-size: 16px;
+    }
+    .team__title{
+        margin: 30px 0 15px;
+    }
+    .person__img{
+        height: 100px;
+        width: 100px;
+    }
+    .person__subtitle{
+        margin: 10px 0;
+    }
+    .person{
+        margin-bottom: 15px;
+    }
+    .footer__container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer__copy{
+        text-align: center;
+        margin-top: 20px;
+    }
+}
