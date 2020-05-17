@@ -147,10 +147,15 @@
         min-height: 576px;
     }
     .footer__container{
-        margin: 0 auto;
+        flex-wrap: wrap;
+        justify-content: center;
         padding: 15px 0 70px;
       min-width: 300px;
      }
+     .footer__soc{
+        margin-bottom: 15px;
+     }
+     
      .portfolio__img{
          width: 280px;
          height: 180px;
